@@ -65,3 +65,7 @@ nav a{
     flex-direction: column;
     width: 20%;
 }
+
+body{
+    background-image: url("../images/nza_background.jpg")
+}

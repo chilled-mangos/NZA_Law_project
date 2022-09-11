@@ -1,10 +1,10 @@
 body{
     background-image: url("../images/nza_background.jpg");
 }
-
 main{
     background-color: white;
     display: flex;
+    width: 80%;
 }
 .button{
     float: right;
@@ -49,8 +49,7 @@ nav a{
 }
 
 .l_sidebar{
-    display: flex;
-    flex-direction: column;
+    background-image: url("../images/nav_side.jpg");
     width: 20%;
 }
 
@@ -61,11 +60,7 @@ nav a{
 }
 
 .r_sidebar{
-    display: flex;
-    flex-direction: column;
+    background-image: url("../images/other_links_background.jpg");
     width: 20%;
 }
 
-body{
-    background-image: url("../images/nza_background.jpg")
-}

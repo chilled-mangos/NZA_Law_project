@@ -1,0 +1,39 @@
+button{
+    float: right;
+}
+nav{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+nav ul{
+    list-style-type: none; 
+    
+}
+nav li{
+    display: inline;
+    border-right: 1px solid black;
+    margin: 1em;
+}
+nav a{
+    text-decoration: none;   
+}
+
+/*footer*/
+footer{
+    border-top: 1px solid black;
+    margin-top: 1em;
+}
+
+footer ul{
+    list-style-type: none; 
+    
+}
+footer li{
+    display: inline;
+    margin: 1em;
+}
+nav a{
+    text-decoration: none;   
+}
+
+

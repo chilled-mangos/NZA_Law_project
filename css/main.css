@@ -1,4 +1,11 @@
-button{
+body{
+    background-image: url("../images/nza_background.jpg");
+}
+
+main{
+    background-color: white;
+}
+.button{
     float: right;
 }
 nav{

@@ -4,7 +4,7 @@ body{
 main{
     background-color: white;
     display: flex;
-    width: 80%;
+
 }
 .button{
     float: right;
@@ -47,20 +47,25 @@ nav a{
     text-decoration: none;
     flex-direction: column;
 }
-
+.container{
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "l_sidebar contact r_sidebar";
+}
 .l_sidebar{
     background-image: url("../images/nav_side.jpg");
-    width: 20%;
+    grid-area: l_sidebar;
 }
 
 .contact{
-    display: flex;
-    flex-direction: column;
-    width: 40%;
+    grid-area: contact;
+    
 }
 
 .r_sidebar{
     background-image: url("../images/other_links_background.jpg");
-    width: 20%;
+    grid-area: r_sidebar;
 }
 

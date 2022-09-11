@@ -3,6 +3,9 @@ body{
 }
 main{
     background-color: white;
+    padding: 3em;
+    width: 70%;
+    margin-left: 10%;
 }
 .button{
     float: right;
@@ -11,7 +14,8 @@ nav{
     border-top: 1px solid black;
     border-bottom: 1px solid black;
     margin: 0px;
-    width: 90%;
+    margin-bottom: 2em;
+    text-align: center;
 }
 nav ul{
     list-style-type: none;  
@@ -35,9 +39,9 @@ nav a:hover{
 /*footer*/
 footer{
     border-top: 1px solid black;
-    width: 90%;
     margin-top: 1em;
     padding-bottom: .5em;
+    text-align: center;
 }
 
 footer ul{
@@ -58,7 +62,7 @@ footer a:hover{
 /*contact*/
 .contact a{
     text-decoration: none;
-    flex-direction: column;
+    padding: 1em;
 }
 .contact_container{
     display: grid;

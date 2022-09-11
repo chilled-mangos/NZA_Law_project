@@ -4,6 +4,7 @@ body{
 
 main{
     background-color: white;
+    display: flex;
 }
 .button{
     float: right;
@@ -13,8 +14,7 @@ nav{
     border-bottom: 1px solid black;
 }
 nav ul{
-    list-style-type: none; 
-    
+    list-style-type: none;  
 }
 nav li{
     display: inline;
@@ -33,7 +33,6 @@ footer{
 
 footer ul{
     list-style-type: none; 
-    
 }
 footer li{
     display: inline;
@@ -46,4 +45,23 @@ nav a{
 /*contact*/
 .contact a{
     text-decoration: none;
+    flex-direction: column;
+}
+
+.l_sidebar{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.r_sidebar{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
 }

@@ -8,7 +8,8 @@ main{
     margin-left: 10%;
 }
 .button{
-    float: right;
+    display: flex;
+    justify-content: flex-end;
 }
 nav{
     border-top: 1px solid black;
@@ -33,7 +34,6 @@ nav a{
 nav a:hover{
     color: darkred;
 }
-/* grid for nav content footer*/
 
 
 /*footer*/
@@ -75,13 +75,46 @@ footer a:hover{
     background-image: url("../images/nav_side.jpg");
     grid-area: l_sidebar;
 }
-
 .contact{
     grid-area: contact;
 }
-
 .r_sidebar{
     background-image: url("../images/other_links_background.jpg");
     grid-area: r_sidebar;
 }
 
+/*Where we work*/
+.work_container{
+    display: flex;
+    flex-direction: row;
+}
+
+.work_text{
+    padding: .2em;
+    display: flex;
+    flex-direction: row;
+}
+
+.united{
+    display: flex;
+}
+.united h3{
+    border-bottom: 2px solid lightgrey;
+}
+
+.united li{
+    list-style-type: none;
+}
+
+.international h3{
+    border-bottom: 2px solid lightgray;
+    margin-left: 2em;
+}
+
+.international li{
+    list-style-type: none;
+}
+
+.work_sidebar{
+    background-image: url("../images/nav_side.jpg");
+}

@@ -69,18 +69,38 @@ footer a:hover{
     grid-template-columns: 1fr 3fr 1fr;
     grid-template-rows: auto;
     grid-template-areas: 
-    "l_sidebar contact r_sidebar";
+    "l_sidebar contact r_sidebar"
 }
+
+.contact{
+    grid-area: contact;
+    padding: 2em;
+}
+.contact img{
+    width: 100%;
+    height: auto;
+}
+
 .l_sidebar{
     background-image: url("../images/nav_side.jpg");
     grid-area: l_sidebar;
+    color: white;
+    padding: 1.5em;
 }
-.contact{
-    grid-area: contact;
+.l_sidebar img{
+    align-items: center;
+    height: 30%;
 }
+
+.l_sidebar h2{
+    border-bottom: 2px solid white;
+}
+
 .r_sidebar{
     background-image: url("../images/other_links_background.jpg");
     grid-area: r_sidebar;
+    color: darkred;
+    padding: 1.5em;
 }
 
 /*Where we work*/
@@ -117,4 +137,6 @@ footer a:hover{
 
 .work_sidebar{
     background-image: url("../images/nav_side.jpg");
+    color: white;
+    padding:1.5em;
 }

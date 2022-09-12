@@ -51,3 +51,26 @@ nav a{
 body{
     background-image: url("../images/nza_background.jpg")
 }
+
+.PageOneSideBar{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.PageOneMain{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.PageTwoMain{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.PageTwoSideBar{
+    display: flex;
+    justify-content: flex-end
+}
+
+
+
